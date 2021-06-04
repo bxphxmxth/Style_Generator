@@ -204,7 +204,8 @@ let topRadius = document.getElementsByTagName("input")[8];
 
 let customTopRadius = () =>{
 
-     square.style.borderRadius = ` ${topRadius.value}px`
+     square.style.borderTopLeftRadius = ` ${topRadius.value}px`;
+     square.style.borderTopRightRadius = ` ${topRadius.value}px`;
 }
 
 topRadius.addEventListener("click",customTopRadius)
@@ -216,7 +217,10 @@ let bottomRadius = document.getElementsByTagName("input")[9];
 
 let customBottomRadius = () =>{
 
-     square.style.borderRadius = ` ${bottomRadius.value}px`
+     square.style.borderBottomLeftRadius = ` ${bottomRadius.value}px`;
+     square.style.borderBottomRightRadius = ` ${bottomRadius.value}px`;
+
+
 }
 
 bottomRadius.addEventListener("click",customBottomRadius);
@@ -226,8 +230,8 @@ bottomRadius.addEventListener("click",customBottomRadius);
 let rightRadius = document.getElementsByTagName("input")[10];
 
 let customRightRadius = () =>{
-
-     square.style.borderRadius = ` ${rightRadius.value}px`
+     square.style.borderTopRightRadius = ` ${rightRadius.value}px`;
+     square.style.borderBottomRightRadius = ` ${rightRadius.value}px`;
 }
 
 rightRadius.addEventListener("click",customRightRadius);
@@ -236,16 +240,15 @@ rightRadius.addEventListener("click",customRightRadius);
 // RADIUS LEFT
 
 let leftRadius = document.getElementsByTagName("input")[11];
+console.log(leftRadius);
 
 let customLeftRadius = () =>{
 
-     square.style.borderRadius = ` ${leftRadius.value}px`
+     square.style.borderTopLeftRadius = ` ${leftRadius.value}px`;
+     square.style.borderBottomLeftRadius = ` ${leftRadius.value}px`;
 }
 
 leftRadius.addEventListener("click",customLeftRadius);
-
-
-
 
 
 
