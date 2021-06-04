@@ -2,22 +2,36 @@ body{
      background-color: rgb(216, 206, 206);
      display: flex;
      flex-direction: column;
+     font-family: ;
 }
 
-
+.divH1{
+     border: solid  3px rgba(0, 0, 0, 0.335);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
 .style-generator{
      color :rgb(153, 36, 153);
      border: solid 3px black;
      width: max-content;
-     margin-left: 37%;
      padding: 20px;
      border-radius: 20px;
 }
 
+.test{
+     /* display: flex;
+     justify-content: center;
+     align-items: center; */
+}
+
 .allBtn{
-     width: max-content;
-     margin-left: 18%;
+    
+     /* margin-left: 18%; */
      margin-top: 3%;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
      
 }
 
@@ -84,7 +98,8 @@ body{
 
 .bgAndBorder{
      display: flex;
-     width: max-content;
+     
+    
 }
 
 .main {
@@ -97,7 +112,7 @@ body{
      color: #fff;
      font-family: verdana;
      border-radius: 15px;
-     margin-top: 3%;
+     margin-top: 5%;
      /* margin-left: ; */
  }
    
@@ -140,11 +155,15 @@ body{
   
 }
 
+.parentSquare{
+     display: flex;
+     justify-content: center;
+}
+
 .square{
      border: solid 1px;
      width: 500px;
      height: 250px;
-     margin-left: 27%;
      margin-top: 3%;
    
 }
