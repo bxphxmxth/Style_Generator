@@ -112,13 +112,137 @@ let addBoldTop = () =>{
 btnTopBold.addEventListener("click",addBoldTop)
 
 
+// INPUTS:
+
+//ALL BORDERS
+
+let allBorders = document.getElementsByTagName("input")[2];
+console.log(allBorders);
 
 
 
+let customAllBorders = () =>{
+
+     square.style.border = `solid black ${allBorders.value}px`
+
+}
 
 
 
+allBorders.addEventListener("click",customAllBorders)
 
+//BORDER TOP CUSTOM
+
+let borderTopCustom = document.getElementsByTagName("input")[3];
+
+let customTopBorder = () =>{
+
+     square.style.borderTop = `solid black ${borderTopCustom.value}px`
+
+}
+
+
+borderTopCustom.addEventListener("click",customTopBorder);
+
+// BORDER BOTTOM CUSTOM
+
+let borderBottomCustom = document.getElementsByTagName("input")[4];
+
+let customBottomBorder = () =>{
+
+     square.style.borderBottom = `solid black ${borderBottomCustom.value}px`
+
+}
+
+borderBottomCustom.addEventListener("click",customBottomBorder)
+
+
+
+//BORDER RIGHT CUSTOM
+
+let borderRightCustom = document.getElementsByTagName("input")[5];
+
+let customRightBorder = () =>{
+
+     square.style.borderRight = `solid black ${borderRightCustom.value}px`
+
+}
+
+
+borderRightCustom.addEventListener("click",customRightBorder)
+
+//BORDER LEFT CUSTOM
+
+
+let borderLeftCustom = document.getElementsByTagName("input")[6];
+
+let customLeftBorder = () =>{
+
+     square.style.borderLeft = `solid black ${borderLeftCustom.value}px`
+
+}
+
+
+borderLeftCustom.addEventListener("click",customLeftBorder)
+
+
+// ALL RADIUS
+
+let allRadius = document.getElementsByTagName("input")[7];
+
+let customAllRadius = () =>{
+
+     square.style.borderRadius = ` ${allRadius.value}px`
+}
+
+allRadius.addEventListener("click",customAllRadius)
+
+
+// RADIUS TOP
+
+let topRadius = document.getElementsByTagName("input")[8];
+
+let customTopRadius = () =>{
+
+     square.style.borderRadius = ` ${topRadius.value}px`
+}
+
+topRadius.addEventListener("click",customTopRadius)
+
+
+// RADIUS BOTTOM
+
+let bottomRadius = document.getElementsByTagName("input")[9];
+
+let customBottomRadius = () =>{
+
+     square.style.borderRadius = ` ${bottomRadius.value}px`
+}
+
+bottomRadius.addEventListener("click",customBottomRadius);
+
+// RADIUS RIGHT
+
+let rightRadius = document.getElementsByTagName("input")[10];
+
+let customRightRadius = () =>{
+
+     square.style.borderRadius = ` ${rightRadius.value}px`
+}
+
+rightRadius.addEventListener("click",customRightRadius);
+
+
+// RADIUS LEFT
+
+let leftRadius = document.getElementsByTagName("input")[11];
+
+let customLeftRadius = () =>{
+
+     square.style.borderRadius = ` ${leftRadius.value}px`
+}
+
+leftRadius.addEventListener("click",customLeftRadius);
 
 
 
