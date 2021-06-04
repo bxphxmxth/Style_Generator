@@ -2,14 +2,15 @@ body{
      background-color: rgb(216, 206, 206);
      display: flex;
      flex-direction: column;
-     font-family: ;
+     
 }
 
 .divH1{
-     border: solid  3px rgba(0, 0, 0, 0.335);
+     /* border: solid  3px rgba(0, 0, 0, 0.335); */
      display: flex;
      justify-content: center;
      align-items: center;
+     text-shadow: 2px 2px red;
 }
 .style-generator{
      color :rgb(153, 36, 153);
@@ -17,21 +18,18 @@ body{
      width: max-content;
      padding: 20px;
      border-radius: 20px;
+     /* box-shadow: 3px 3px 2px 3px black; */
 }
 
-.test{
-     /* display: flex;
-     justify-content: center;
-     align-items: center; */
-}
+
 
 .allBtn{
     
-     /* margin-left: 18%; */
      margin-top: 3%;
      display: flex;
      justify-content: space-around;
      align-items: center;
+     
      
 }
 
@@ -40,21 +38,25 @@ body{
 .btn-grey{
      background-color: grey;
      cursor: pointer;
+     text-shadow: 2px 2px red;
 
 }
 .btn-red{
      background-color: red;
      cursor: pointer;
+     text-shadow: 2px 2px red;
 
 }
 .btn-green{
      background-color: green;
      cursor: pointer;
+     text-shadow: 2px 2px red;
 
 }
 .btn-blue{
      background-color: blue;
      cursor: pointer;
+     text-shadow: 2px 2px red;
 
 }
 
@@ -63,28 +65,33 @@ body{
 .border-solid{
      border: solid 3px;
      cursor: pointer;
+     text-shadow: 2px 2px red;
 
 }
 .border-dotted{
      border: dotted;
      cursor: pointer;
+     text-shadow: 2px 2px red;
 
 }
 .border-light{
      border: 1px solid;
      cursor: pointer;
+     text-shadow: 2px 2px red;
 
 }
 
 .top-light{
      border-top: 1px solid rgb(153, 36, 153); 
      cursor: pointer;
+     text-shadow: 2px 2px red;
 
 }
 
 .top-medium{
      border-top: 3px solid rgb(153, 36, 153); 
      cursor: pointer;
+     text-shadow: 2px 2px red;
 
 
 }
@@ -92,6 +99,7 @@ body{
 .top-bold{
      border-top: 5px solid rgb(153, 36, 153); 
      cursor: pointer;
+     text-shadow: 2px 2px red;
 
 
 }
@@ -113,6 +121,7 @@ body{
      font-family: verdana;
      border-radius: 15px;
      margin-top: 5%;
+     text-shadow: 2px 2px red;
      /* margin-left: ; */
  }
    
@@ -142,6 +151,7 @@ body{
       padding: 5%;
       border-radius: 10px;
       background-color: rgb(185, 173, 185); 
+      text-shadow: 1px 1px red;
  }
 
 .allRadius{
@@ -152,6 +162,7 @@ body{
      background-color: rgb(185, 173, 185); 
      padding: 2%;
      border-radius: 10px;
+     text-shadow: 1px 1px red;
   
 }
 
