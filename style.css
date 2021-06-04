@@ -1,0 +1,150 @@
+body{
+     background-color: rgb(216, 206, 206);
+     display: flex;
+     flex-direction: column;
+}
+
+
+.style-generator{
+     color :rgb(153, 36, 153);
+     border: solid 3px black;
+     width: max-content;
+     margin-left: 37%;
+     padding: 20px;
+     border-radius: 20px;
+}
+
+.allBtn{
+     width: max-content;
+     margin-left: 18%;
+     margin-top: 3%;
+     
+}
+
+/* <!-- color button --> */
+
+.btn-grey{
+     background-color: grey;
+     cursor: pointer;
+
+}
+.btn-red{
+     background-color: red;
+     cursor: pointer;
+
+}
+.btn-green{
+     background-color: green;
+     cursor: pointer;
+
+}
+.btn-blue{
+     background-color: blue;
+     cursor: pointer;
+
+}
+
+/* <!-- style button --> */
+
+.border-solid{
+     border: solid 3px;
+     cursor: pointer;
+
+}
+.border-dotted{
+     border: dotted;
+     cursor: pointer;
+
+}
+.border-light{
+     border: 1px solid;
+     cursor: pointer;
+
+}
+
+.top-light{
+     border-top: 1px solid rgb(153, 36, 153); 
+     cursor: pointer;
+
+}
+
+.top-medium{
+     border-top: 3px solid rgb(153, 36, 153); 
+     cursor: pointer;
+
+
+}
+
+.top-bold{
+     border-top: 5px solid rgb(153, 36, 153); 
+     cursor: pointer;
+
+
+}
+
+.bgAndBorder{
+     display: flex;
+     width: max-content;
+}
+
+.main {
+     height: 200px;
+     width: 250px;
+     background: #3A3A38;
+     border-radius: 10px;
+     display: grid;
+     place-items: center;
+     color: #fff;
+     font-family: verdana;
+     border-radius: 15px;
+     margin-top: 3%;
+     /* margin-left: ; */
+ }
+   
+ #colorPicker {
+     background-color: none;
+     outline: none;
+     border: none;
+     height: 40px;
+     width: 60px;
+     cursor: pointer;
+ }
+   
+ #box {
+     outline: none;
+     border: 2px solid #333;
+     border-radius: 50px;
+     height: 40px;
+     width: 120px;
+     padding: 0 10px;
+ }
+
+ .divWithLabel{
+      display: flex;
+      margin-top: 5%;
+      margin-left: 5%;
+      border: solid 3px ;
+      padding: 5%;
+      border-radius: 10px;
+      background-color: rgb(185, 173, 185); 
+ }
+
+.allRadius{
+     border: 3px solid;
+     width: 20%;
+     margin-left: 5%;
+     margin-top: 5%;
+     background-color: rgb(185, 173, 185); 
+     padding: 2%;
+     border-radius: 10px;
+  
+}
+
+.square{
+     border: solid 1px;
+     width: 500px;
+     height: 250px;
+     margin-left: 27%;
+     margin-top: 3%;
+   
+}
